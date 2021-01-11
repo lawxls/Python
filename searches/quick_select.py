@@ -45,7 +45,6 @@ def quick_select(items: list, index: int):
         return None
 
     pivot = items[random.randint(0, len(items) - 1)]
-    count = 0
     smaller, equal, larger = _partition(items, pivot)
     count = len(equal)
     m = len(smaller)
