@@ -87,7 +87,7 @@ def get_primes_squared(max_number: int) -> List[int]:
             non_primes.add(num * counter)
             counter += 1
 
-        primes.append(num ** 2)
+        primes.append(num**2)
     return primes
 
 
